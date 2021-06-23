@@ -1,0 +1,185 @@
+body {
+    background-color:rgba(0, 0, 0, 0.137)
+    
+}
+video{
+    background-image:url(../img/elegant-burger-menu-template-free-vector.jpg);
+    border-radius: 10px;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    text-align: center;
+    color:black;
+}
+h4{
+    font-size: 17px;
+    font-weight: 200;
+}
+header {
+    padding: 20px 0 0 0; 
+    background:rgba(128, 128, 128, 0.713);
+    text-align: center;
+}
+
+@media (min-width : 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+.borrar-platillo{
+    display: none;
+    background-color: darkgoldenrod;
+    border-radius: 48%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(72, 72, 72);
+    font-weight: bold;  
+}
+
+ul{
+    list-style: none;
+}
+.hero{
+    background-image:url(../img/hero.jpg);
+    height: 555px;
+}
+.encabezado{
+    margin: 33px 0;
+    color: rgba(255, 255, 255, 0.747);
+}
+.submenu {
+    position: relative;
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 103%;
+    z-index: 3;
+    background: #17181bc0;
+    padding: 22px ;
+}
+ 
+.vacio{
+    padding: 13px;
+    background-color: rgb(177, 138, 124);
+    text-align: center;
+    border-radius: 12px;
+    color: rgb(108, 102, 78);
+}
+.button{
+    background-color: darkgoldenrod;
+    color: rgb(150, 78, 78);
+    border-radius: 5px;
+}
+.contenido-hero form{
+    position: relative;
+    margin-bottom: 1;
+}
+.contenido.hero form #buscador{
+ 
+    height: 2px;
+    margin-bottom: 0px;
+}
+.contenido-hero form .submit-buscador{
+    position: absolute;
+    right: 1px;
+    top:0px;
+    height: 37px;
+    padding: 0px;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(../img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: 1%;;
+}
+.barra{
+    display: flex;
+    padding: 22px 0;
+    background: coral;
+    background:  -webkit-linear-gradient(left, hsl(29, 74%, 37%) 0%,hsl(29, 90%, 60%) 100% );
+    border-radius: 1px;
+}
+.barra p{
+    margin: 1px;
+    color:#ffffff;
+}
+.icono{
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width:750px){
+    .icono{
+        margin-bottom:0;
+    }
+}
+.icono1{
+    background-image: url(../img/icono1.png);
+}
+.icono2{
+    background-image: url(../img/icono2.png);
+}
+.icono3{
+    background-image: url(../img/icono3.png);
+}
+
+#lista-platillos .row {
+    margin-bottom: 20px;
+}
+.agregar-carrito{
+    margin: 10px 0;
+}
+.card {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #1d2124;
+}
+@media (min-width:550px){
+    .card {
+        text-align: left;
+    }
+}
+.info-card {
+    padding: 10px 20px;
+    color: white;
+}
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    background: #1d2124;
+}
+
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
